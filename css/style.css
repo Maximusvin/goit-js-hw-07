@@ -40,6 +40,10 @@ section {
   background-color: rgb(192, 253, 200);
 }
 
+.task-5 {
+  background-color: rgb(117, 118, 207);
+}
+
 #gallery {
   display: flex;
   justify-content: space-between;
