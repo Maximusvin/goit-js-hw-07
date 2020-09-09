@@ -3,6 +3,11 @@ body {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 h1 {
   font-size: 34px;
   text-align: center;
@@ -25,4 +30,19 @@ section {
 
 .task-2 {
   background-color: rgb(143, 162, 172);
+}
+
+.task-3 {
+  background-color: rgb(228, 169, 240);
+}
+
+#gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  max-width: 350px;
+  list-style: none;
+  margin-right: 5px;
 }
