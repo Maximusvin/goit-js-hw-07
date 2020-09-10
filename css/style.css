@@ -44,6 +44,10 @@ section {
   background-color: rgb(117, 118, 207);
 }
 
+.task-6 {
+  background-color: rgb(228, 240, 125);
+}
+
 #gallery {
   display: flex;
   justify-content: space-between;
@@ -53,4 +57,16 @@ section {
   max-width: 350px;
   list-style: none;
   margin-right: 5px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
 }
